@@ -7,6 +7,5 @@ setup(name='shared_interest',
       author='Angie Boggust',
       author_email='aboggust@mit.edu',
       license='MIT',
-      packages=find_packages('shared_interest/'),
-      package_dir={'': 'shared_interest/'},
+      packages=find_packages(),
       zip_safe=False)
